@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <div class="container">
+        <img src="gambar.jpeg" alt="gambar">
+        <div class="text-overlay">SELAMAT DATANG DI WEBSITE PENJADWALAN MATAKULIAH ITH</div>
+    </div>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="">
+    <meta name="autohor" content="">
+    <title>Dashboard Penjadwalan Matakuliah</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dashboard</div>
+            <ul>
+                <li><a href="Ruangan.php">Ruangan</a></li>
+                <li><a href="matakuliah.php">Matakuliah</a></li>
+                <li><a href="jadwal.php">Jadwal</a></li>
+                <li><a href="dosentess.php">Dosen</a></li>
+                <li><a href="logintes.php">login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="dashboard">
+            <h1>Dashboard</h1>
+            <div class="card-container">
+                <div class="card">
+                    <img class="img_drs" img src="dosen.png" alt="dosen"> 
+                    <h3>Total Dosen</h3>
+                    <p>25</p>
+                </div>
+                <div class="card">
+                    <img class="img_drs" img src="jadwal.png" alt="jadwal">
+                    <h3>Matakuliah</h3>
+                    <p>18</p>
+                </div>
+                <div class="card">
+                    <img class="img_drs" img src="ruangbaru.jpg" alt="ruangbaru">
+                    <h3>Jadwal</h3>
+                    <p>12</p>
+                </div>
+                <div class="card">
+                    <img class="img_drs" img src="bentrok.jpg" alt="bentrok">
+                    <h3>Ruangan</h3>
+                    <p>3</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="schedule">
+            <h2>Jadwal Matakuliah</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matakuliah</th>
+                        <th>Dosen</th>
+                        <th>Hari</th>
+                        <th>Jam</th>
+                        <th>Ruangan</th>
+                        <th>Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pemrograman Web</td>
+                        <td>John Doe</td>
+                        <td>Senin</td>
+                        <td>09:00 - 11:00</td>
+                        <td>Lab 1</td>
+                        <td>2</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>
